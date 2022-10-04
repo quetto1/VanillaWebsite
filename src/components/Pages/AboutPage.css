@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+.about-glitch-wrapper{
+  max-width: 1200px;
+    display: flex; 
+    flex-direction: column;
+    margin: auto;
+    font-family: 'DotGothic16', sans-serif;
+
+}
+.about-first-row-wrapper{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: 'DotGothic16', sans-serif;
+    max-width: 1200px;
+    max-height: 550px;
+    margin: auto;
+    justify-content: space-between;
+    /*  */
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.page-title-about{
+  font-family: 'Anton', sans-serif;
+  font-size: 85px;
+  letter-spacing: 9px;
+  text-align: center;
+  /* unselecatable */
+  -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+.about-first-row-first-column{
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+}
+
+.first-row-title{
+    display: flex;
+    font-size: 75px;
+    font-weight: 600;
+}
+
+/* Animation  */
+.green-cunt{
+    animation: color-change1 4s infinite;
+    display: flex;
+
+}
+.green-cunt2{
+    color: #33ff33;
+    animation: color-change2 4s infinite;
+    position: absolute;
+    margin-top: 120px;
+}
+.green-cunt3{
+    color: #33ff33;
+    animation: color-change3 4s infinite;
+}
+.green-cunt4{
+    color: #33ff33;
+    animation: color-change4 4s infinite;
+}
+.green-cunt5{
+    color: #33ff33;
+    animation: color-change5 4s infinite;
+}
+
+/* keyframes for nice animation */
+@keyframes color-change1 {
+    0% { color: white }
+    25% { color: #33ff33; }
+    50% { color: white; }
+    75% { color: white; }
+    100% { color: white; }
+  }
+@keyframes color-change2 {
+    0% { color: white }
+    25% { color: white; }
+    50% { color: #33ff33; }
+    75% { color: white; }
+    100% { color: white; }
+  }
+@keyframes color-change3 {
+    0% { color: white }
+    25% { color: white; }
+    50% { color: white; }
+    75% { color: #33ff33; }
+    100% { color: white; }
+  }
+@keyframes color-change4 {
+    0% { color: #33ff33 }
+    25% { color: #33ff33; }
+    50% { color: white; }
+    75% { color: white;}
+    100% { color: #33ff33; }
+  }
+@keyframes color-change5 {
+    0% { color: #33ff33 }
+    25% { color: white; }
+    50% { color: white; }
+    75% { color: white;}
+    100% { color: #33ff33; }
+  }
+
+/* END */
+
+.middle-text{
+  position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  /* float: right; */
+}
+.discover-ele{
+  max-width: 150px;
+  transition: all 1s;
+  -webkit-animation: rotate 5s normal linear infinite;
+  animation: rotate 5s normal linear infinite, color-change6 5s infinite; ;
+}
+@keyframes color-change6{
+  0% { color: #9400D3, }
+  25% { color: #33ff33; }
+  50% { color: #FFFF00; }
+  75% { color: #FF7F00;}
+  100% { color: #9400D3; }
+}
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  25% {
+    -webkit-transform: rotate3d(0, 0, 1, 90deg);
+    transform: rotate3d(0, 0, 1, 90deg);
+  }
+  50% {
+    -webkit-transform: rotate3d(0, 0, 1, 180deg);
+    transform: rotate3d(0, 0, 1, 180deg);
+  }
+  75% {
+    -webkit-transform: rotate3d(0, 0, 1, 270deg);
+    transform: rotate3d(0, 0, 1, 270deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 360deg);
+    transform: rotate3d(0, 0, 1, 360deg);
+  }
+}
+.discover-ele:hover{
+  font-size: 30px;
+  cursor: pointer;
+  -webkit-animation-play-state: paused;
+  font-weight: 500;
+  z-index: 1;
+  max-width: 250px;
+}
+.bottom-text{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  float: right;
+  text-align: right;
+  max-width: 430px;
+  text-align: justify;
+}
+
+
+  .about-first-row-second-column{
+    max-width: 370px;
+    max-height: 550px;
+    overflow: hidden;
+
+  }
+
+.about-first-row-second-column img{
+  transition: transform 1s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(60%);
+    max-width: 370px;
+    max-height: 550px;
+}
+.about-first-row-second-column:hover img {
+  filter: brightness(100%);
+  transform: scale(1.3);
+cursor: pointer;
+}
+/* THRID ROW !!!!!!!!!!!!!!*/
+
+.about-third-row-wrapper{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  font-family: 'DotGothic16', sans-serif;
+  max-width: 1200px;
+  height: 550px;
+  margin: auto;
+  justify-content: space-between;
+  /*  */
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+.about-third-row-first-column{
+  position: relative;
+  width: 100%;
+  margin-left: 200px;
+  height: 650px;
+}
+
+.third-row-title{
+  display: flex;
+  font-size: 75px;
+  font-weight: 600;
+  text-shadow: 5px 5px black;
+}
+
+/* Animation  */
+.collab-p{
+  animation: color-change11 4s infinite;
+  display: flex;
+  position: absolute;
+  margin-top: 100px;
+  z-index: 2;
+
+}
+.color-change-zooluft{
+  animation: color-change12 4s infinite;
+
+}
+
+/* keyframes for nice animation */
+@keyframes color-change11 {
+  0% { color: white }
+  25% { color: #33ff33; }
+  50% { color: white; }
+  75% { color: #9400D3; }
+  100% { color: white; }
+}
+@keyframes color-change12 {
+  0% { color: white }
+  25% { color: white; }
+  50% { color: white; }
+  75% { color: #9400D3; }
+  100% { color: white; }
+}
+
+.middle-text2{
+  position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  /* float: right; */
+  bottom: 260px;
+}
+
+.bottom-text{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  float: right;
+  text-align: right;
+  max-width: 430px;
+  text-align: justify;
+}
+
+
+  .about-third-row-second-column{
+    max-width: 370px;
+    max-height: 550px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 100px;
+    z-index: 1;
+
+  }
+
+.about-third-row-second-column img{
+  transition: transform 1s, filter 2s ease-in-out;
+  filter: blur(2px);
+  transform: scale(1.2);
+    max-width: 380px;
+    max-height: 580px;
+}
+.about-third-row-second-column:hover img {
+  filter: blur(0);
+  transform: scale(1);
+cursor: pointer;
+}

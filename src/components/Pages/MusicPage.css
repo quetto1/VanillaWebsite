@@ -1,0 +1,47 @@
+.music-page-main-wrapper{
+    max-width: 1200px;
+    display: flex; 
+    flex-direction: column;
+    margin: auto;
+    font-family: 'DotGothic16', sans-serif;
+}
+.page-title-music{
+    margin: auto;
+    font-family: 'Anton', sans-serif;
+    font-size: 85px;
+    letter-spacing: 9px;
+    /* unselecatable */
+    -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+.music-page-main-wrapper h1{
+text-transform: uppercase;
+font-style: italic;
+letter-spacing: 5px;
+
+
+}
+.youtube-wrapper{
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 5%;
+    padding-bottom: 30px;
+}
+.hip-to-hop{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hip-to-hop h1{
+    margin:0px;
+}
+.youtube-wrapper p{
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
