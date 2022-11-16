@@ -5,19 +5,7 @@
     margin: auto;
     font-family: 'DotGothic16', sans-serif;
 }
-.page-title-music{
-    margin: auto;
-    font-family: 'Anton', sans-serif;
-    font-size: 85px;
-    letter-spacing: 9px;
-    /* unselecatable */
-    -webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
--o-user-select: none;
-user-select: none;
-}
+
 .music-page-main-wrapper h1{
 text-transform: uppercase;
 font-style: italic;

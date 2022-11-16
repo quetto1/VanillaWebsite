@@ -1,0 +1,118 @@
+.event-page-main-wrapper {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-family: "DotGothic16", sans-serif;
+}
+
+.upcoming-events-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 15%;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+/* =============== */
+.discover-ele2 {
+  max-width: 150px;
+  transition: all 1s;
+  -webkit-animation: rotate 5s normal linear infinite;
+  animation: rotate 5s normal linear infinite, color-change6 5s infinite;
+}
+@keyframes color-change6 {
+  0% {
+    color: #9400d3;
+  }
+  25% {
+    color: #33ff33;
+  }
+  50% {
+    color: #ffff00;
+  }
+  75% {
+    color: #9400d3;
+  }
+  100% {
+    color: #9400d3;
+  }
+}
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  25% {
+    -webkit-transform: rotate3d(0, 0, 1, 90deg);
+    transform: rotate3d(0, 0, 1, 90deg);
+  }
+  50% {
+    -webkit-transform: rotate3d(0, 0, 1, 180deg);
+    transform: rotate3d(0, 0, 1, 180deg);
+  }
+  75% {
+    -webkit-transform: rotate3d(0, 0, 1, 270deg);
+    transform: rotate3d(0, 0, 1, 270deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 360deg);
+    transform: rotate3d(0, 0, 1, 360deg);
+  }
+}
+.discover-ele2:hover {
+  font-size: 27px;
+  cursor: pointer;
+  -webkit-animation-play-state: paused;
+  font-weight: bold;
+  max-width: 300px;
+  z-index: 1;
+}
+/* ========== */
+.djnight-info {
+  -webkit-transform: rotate(48deg);
+  -moz-transform: rotate(48deg);
+  -o-transform: rotate(48deg);
+  writing-mode: lr-tb;
+  position: absolute;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 20px;
+  left: 10%;
+  top: 40%;
+  max-width: 250px;
+  text-align: center;
+}
+.upcoming-events-wrapper p {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.djnight-wrapper img {
+  width: 400px;
+  height: 566px;
+}
+.previous-events-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.previous-events-wrapper a {
+  cursor: pointer;
+}
+
+.previous-events-wrapper a img {
+  opacity: 0.75;
+transition: all 0.5s;
+
+}
+.previous-events-wrapper a img:hover{
+  opacity: 1;
+
+}

@@ -11,7 +11,9 @@ function Header() {
       <img className="vanilla-pic" src={HeaderAbout} alt="prop"></img>
       <div className="social-media">
         <div>
-          <MixcloudSvg></MixcloudSvg>
+          <a href="/music">
+            <MixcloudSvg></MixcloudSvg>
+            </a>
         </div>
         <div>
           <InstaSvg></InstaSvg>
