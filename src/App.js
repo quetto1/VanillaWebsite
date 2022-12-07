@@ -13,7 +13,9 @@ function App() {
       <Header></Header>
       <main>
         <Routes>
-          <Route path="/" element={<AboutPage></AboutPage>}></Route>
+          <Route  path="/" element={<AboutPage></AboutPage>}></Route>
+          <Route  path="/quetto1/VanillaWebsite" element={<AboutPage></AboutPage>}></Route>
+          <Route  path="/home" element={<AboutPage></AboutPage>}></Route>
           <Route path="/music" element={<MusicPage></MusicPage>}></Route>
           <Route path="/events" element={<EventsPage></EventsPage>}></Route>
         </Routes>
