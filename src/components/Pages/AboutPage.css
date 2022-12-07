@@ -6,8 +6,8 @@
     flex-direction: column;
     margin: auto;
     font-family: 'DotGothic16', sans-serif;
-
 }
+
 .about-first-row-wrapper{
     display: flex;
     flex-direction: row;
@@ -21,19 +21,7 @@
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.page-title-about{
-  font-family: 'Anton', sans-serif;
-  font-size: 85px;
-  letter-spacing: 9px;
-  text-align: center;
-  /* unselecatable */
-  -webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
--o-user-select: none;
-user-select: none;
-}
+
 .about-first-row-first-column{
     position: relative;
     max-width: 800px;
@@ -261,7 +249,7 @@ cursor: pointer;
   bottom: 260px;
 }
 
-.bottom-text{
+.bottom-text2{
   position: absolute;
   bottom: 10px;
   right: 10px;
@@ -389,4 +377,182 @@ cursor: pointer;
 /* EXTRAS */
 a {
   text-decoration: none;
+}
+
+/* Moblie view */
+@media only screen and (max-width: 1200px) {
+  .glitch.about-glitch-wrapper{
+    max-width: 650px;
+  }
+  
+  .about-first-row-wrapper{
+    flex-direction: column;
+    max-width: 650px;
+    max-height: 950px;
+    /*  */
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.first-row-title{
+  font-size: 55px;
+  margin-bottom: 240px;
+}
+.middle-text{
+  display: none;
+}
+.bottom-text{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  top: 15vh;
+  float: right;
+  text-align: right;
+  max-width: 430px;
+  text-align: justify;
+}
+.about-first-row-second-column{
+  margin-top: 40px;
+ margin-left: auto;
+ margin-right: auto;
+}
+.about-first-row-second-column img{
+  transition: transform 1s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(100%);
+    max-width: 370px;
+    max-height: 550px;
+}
+.about-third-row-wrapper{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: 'DotGothic16', sans-serif;
+  max-width: 600px;
+  height: 550px;
+  margin: auto;
+  justify-content: space-between;
+  /*  */
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+.about-third-row-first-column{
+  position: relative;
+  width: 100%;
+  margin-left: 20px;
+  height: 650px;
+}
+.third-row-title{
+  display: flex;
+  font-size: 55px;
+  font-weight: 600;
+  text-shadow: 5px 5px black;
+}
+.middle-text2{
+  display: none;
+}
+.bottom-text2{
+  position: absolute;
+  bottom: -190px;
+  right: 110px;
+  float: left;
+  text-align: center;
+  max-width: 320px;
+  font-size: 15px;
+}
+
+
+  .about-third-row-second-column{
+    max-width: 370px;
+    max-height: 550px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 100px;
+    z-index: 1;
+
+  }
+
+.about-third-row-second-column img{
+  transition: transform 1s, filter 2s ease-in-out;
+  filter: blur(0px);
+  transform: scale(1.2);
+    max-width: 280px;
+    max-height: 480px;
+}
+.about-fourth-row-wrapper{
+
+    flex-direction: column;
+    max-width: 650px;
+    max-height: 650px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  
+}
+  .fourth-row-title{
+  font-size: 55px;
+    margin-bottom: 200px;
+  }
+  .about-fourth-row-first-column p{
+    top: 100px;
+    left:10%;
+  }
+  .about-fourth-row-second-column img{
+    filter: brightness(100%);
+      max-width: 600px;
+  /* max-height: 550px; */
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 650px) {
+  .about-first-row-second-column img{
+    transition: transform 1s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(100%);
+      max-width: 300px;
+      max-height: 480px;
+  }
+  .first-row-title{
+    font-size: 55px;
+    margin-bottom: 280px;
+  }
+  .bottom-text{
+    font-size: 13px;
+    top: 26vh;
+  }
+  .about-fourth-row-second-column img{
+    filter: brightness(100%);
+      max-width: 320px;
+  /* max-height: 550px; */
+    }
+    .third-row-title{
+      display: flex;
+      font-size: 45px;
+      font-weight: 600;
+      text-shadow: 5px 5px black;
+    }
+    .about-third-row-wrapper{
+    
+      max-width: 320px;
+  
+    }
+    .about-fourth-row-wrapper{
+
+      max-width: 320px;
+    
+  }
+    .bottom-text2{
+      position: absolute;
+      bottom: -190px;
+      right: 10px;
+      float: left;
+      text-align: center;
+      max-width: 320px;
+      font-size: 14px;
+    }
+    
 }

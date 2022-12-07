@@ -36,3 +36,10 @@
     margin: 10px;
     background-color: aliceblue;
 }
+
+@media only screen and (max-width: 650px) {
+    .footer-wrapper{
+        margin-top: 50px;
+
+    }
+}

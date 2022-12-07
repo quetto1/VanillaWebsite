@@ -33,7 +33,7 @@ function AboutPage() {
                     <div className="third-row-title">
                     <div className="color-change-zooluft">ZOOLUFT_</div>COLLA<p className="collab-p">BORATION</p> </div>
                     <p className="middle-text2"> Zooluf Records</p>
-                    <p className="bottom-text">Vanilla Villain is a part of the Zooluft artist collective, which brings together people with all kinds of passions from music through design, photography to even poetry, check out the other members who share there the fruits of their hard work! </p>
+                    <p className="bottom-text2">Vanilla Villain is a part of the Zooluft artist collective, which brings together people with all kinds of passions from music through design, photography to even poetry, check out the other members who share there the fruits of their hard work! </p>
                 </div>
                 
             </div>
