@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/quetto1/VanillaWebsite/static/css/main.90a38585.css",
+    "main.js": "/quetto1/VanillaWebsite/static/js/main.951d1fd0.js",
+    "static/media/ezgif.com-gif-maker.gif": "/quetto1/VanillaWebsite/static/media/ezgif.com-gif-maker.438924b7486bdc743066.gif",
+    "static/media/vvGIF.gif": "/quetto1/VanillaWebsite/static/media/vvGIF.f7b506bc1a3477be092b.gif",
+    "static/media/vv1.jpg": "/quetto1/VanillaWebsite/static/media/vv1.3a2be40c8acb25e286cf.jpg",
+    "static/media/djnight26.png": "/quetto1/VanillaWebsite/static/media/djnight26.d75cc1b2af317b7a550d.png",
+    "static/media/zooexp4.png": "/quetto1/VanillaWebsite/static/media/zooexp4.78977f7f6d8d78837d1f.png",
+    "static/media/vv2.png": "/quetto1/VanillaWebsite/static/media/vv2.0a81c181ec6d5828e596.png",
+    "static/media/mixcloud-icon.svg": "/quetto1/VanillaWebsite/static/media/mixcloud-icon.7b91b64ae2a610ece4b746adbe4bb0a2.svg",
+    "static/media/insta-icon.svg": "/quetto1/VanillaWebsite/static/media/insta-icon.15404131fbadb78bbc16f25130d4c849.svg",
+    "index.html": "/quetto1/VanillaWebsite/index.html",
+    "main.90a38585.css.map": "/quetto1/VanillaWebsite/static/css/main.90a38585.css.map",
+    "main.951d1fd0.js.map": "/quetto1/VanillaWebsite/static/js/main.951d1fd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90a38585.css",
+    "static/js/main.951d1fd0.js"
+  ]
+}
