@@ -14,10 +14,12 @@ function EventsPage() {
         </div>
         <h1>Latests/Upcoming Events</h1>
         <div className="upcoming-events-wrapper">
+          <a href="https://www.mixcloud.com/thevanillavillain/part2/" target="blank">
             <div className="djnight-info discover-ele2">
                 House&Techno
                 26th of Novmeber
             </div>
+            </a>
           <div className="djnight-wrapper"><img src={DjNightNovember} alt="chuj"></img></div>
           <p>VANILLA_DJ_House_Techno_Night</p>
         </div>

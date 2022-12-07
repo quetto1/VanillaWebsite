@@ -2,7 +2,7 @@ import "./Header.css";
 import HeaderAbout from "../img/ezgif.com-gif-maker.gif";
 import { ReactComponent as MixcloudSvg } from "../img/svg/mixcloud-icon.svg";
 import { ReactComponent as InstaSvg } from "../img/svg/insta-icon.svg";
-import { ReactComponent as CatIcon } from "../img/svg/cat-icon.svg";
+// import { ReactComponent as CatIcon } from "../img/svg/cat-icon.svg";
 
 function Header() {
   return (
@@ -11,16 +11,20 @@ function Header() {
       <img className="vanilla-pic" src={HeaderAbout} alt="prop"></img>
       <div className="social-media">
         <div>
-          <a href="/music">
+          <a href="https://www.mixcloud.com/thevanillavillain/" target="blank">
             <MixcloudSvg></MixcloudSvg>
-            </a>
+          </a>
         </div>
         <div>
-          <InstaSvg></InstaSvg>
+          <a href="https://www.instagram.com/the.vanilla.villain/" target="blank">
+
+            <InstaSvg></InstaSvg>
+          </a>
+
         </div>
-        <div>
+        {/* <div>
           <CatIcon></CatIcon>
-        </div>
+        </div> */}
       </div>
       <div className="links-wrapper">
         <div> <a href="/music">Music</a></div>

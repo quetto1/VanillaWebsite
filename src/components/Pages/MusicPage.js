@@ -26,10 +26,24 @@ function MusicPage() {
       <h1>Live gigs</h1>
       <ReactPlayer
         className="hip-hop"
-        url="https://www.mixcloud.com/krzysztof-richter/zooluft-exp4-vv-mix/"
+        url="https://www.mixcloud.com/thevanillavillain/zooluft-exp4-vv-mix/"
         width="100%"
         height={180}
       />
+
+ <ReactPlayer
+        className="hip-hop"
+        url="https://www.mixcloud.com/thevanillavillain/part1/"
+        width="100%"
+        height={180}
+      />
+ <ReactPlayer
+        className="hip-hop"
+        url="https://www.mixcloud.com/thevanillavillain/part2/"
+        width="100%"
+        height={180}
+      />
+ 
       <div className="hip-to-hop">
         <h1>HIP-HOP </h1>
         <h1>& RAP</h1>
@@ -37,7 +51,7 @@ function MusicPage() {
 
       <ReactPlayer
         className="hip-hop"
-        url="https://www.mixcloud.com/krzysztof-richter/hip-hop-cut/"
+        url="https://www.mixcloud.com/thevanillavillain/hip-hop-cut/"
         width="100%"
         height={180}
       />
@@ -45,14 +59,14 @@ function MusicPage() {
 
       <ReactPlayer
         className="hip-hop"
-        url="https://www.mixcloud.com/krzysztof-richter/summer-drive-mix/"
+        url="https://www.mixcloud.com/publicaffairradio/zooluft-w-vanilla-villain-150522-back/"
         width="100%"
-        height={250}
+        height={180}
       />
 
       <ReactPlayer
         className="hip-hop"
-        url="https://www.mixcloud.com/krzysztof-richter/kitchen-party-1/"
+        url="https://www.mixcloud.com/thevanillavillain/kitchen-party-1/"
         width="100%"
         height={180}
       />
@@ -60,10 +74,11 @@ function MusicPage() {
 
       <ReactPlayer
         className="hip-hop"
-        url="https://www.mixcloud.com/krzysztof-richter/hip-hop-cut/"
+        url="https://www.mixcloud.com/thevanillavillain/p3/"
         width="100%"
         height={180}
       />
+
     </div>
   );
 }

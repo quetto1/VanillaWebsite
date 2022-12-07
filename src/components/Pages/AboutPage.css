@@ -71,6 +71,7 @@ user-select: none;
     animation: color-change5 4s infinite;
 }
 
+
 /* keyframes for nice animation */
 @keyframes color-change1 {
     0% { color: white }
@@ -292,4 +293,100 @@ cursor: pointer;
   filter: blur(0);
   transform: scale(1);
 cursor: pointer;
+}
+/* fourth row ==================================================================================== */
+.about-fourth-row-wrapper{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  font-family: 'DotGothic16', sans-serif;
+  max-width: 1200px;
+  max-height: 550px;
+  margin: auto;
+  justify-content: space-between;
+  /*  */
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.page-title-about{
+font-family: 'Anton', sans-serif;
+font-size: 85px;
+letter-spacing: 9px;
+text-align: center;
+/* unselecatable */
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+.about-fourth-row-first-column{
+  position: relative;
+  max-width: 800px;
+}
+
+
+.fourth-row-title{
+  display: flex;
+  font-size: 75px;
+  font-weight: 600;
+}
+.about-fourth-row-first-column p{
+  top: 150px;
+  left:10%;
+}
+/* Animation  */
+
+.green-cunt7{
+  color: orange;
+  animation: color-change7 4s infinite;
+}
+.green-cunt8{
+  color: orangered;
+  animation: color-change8 4s infinite;
+}
+
+/* keyframes for nice animation */
+
+@keyframes color-change7 {
+  0% { color: orange }
+  25% { color: white; }
+  50% { color: white; }
+  75% { color: white;}
+  100% { color: orange; }
+}
+@keyframes color-change8 {
+  0% { color: orangered }
+  25% { color: white; }
+  50% { color: orangered; }
+  75% { color: white;}
+  100% { color: orangered; }
+}
+
+.about-fourth-row-second-column{
+  /* max-width: 570px;
+  max-height: 700px; */
+  overflow: hidden;
+  right: 2000px;
+  border-radius: 5%;
+
+}
+
+.about-fourth-row-second-column img{
+transition: transform 1s, filter 1.5s ease-in-out;
+transform-origin: center center;
+filter: brightness(60%);
+  /* max-width: 370px;
+  max-height: 550px; */
+}
+.about-fourth-row-second-column:hover img {
+filter: brightness(100%);
+transform: scale(0.8);
+cursor: pointer;
+}
+
+/* EXTRAS */
+a {
+  text-decoration: none;
 }
