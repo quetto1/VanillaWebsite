@@ -404,7 +404,7 @@ a {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  top: 15vh;
+  top: 25vh;
   float: right;
   text-align: right;
   max-width: 430px;
@@ -556,3 +556,4 @@ a {
     }
     
 }
+

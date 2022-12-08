@@ -2,7 +2,8 @@ import "./Header.css";
 import HeaderAbout from "../img/ezgif.com-gif-maker.gif";
 import { ReactComponent as MixcloudSvg } from "../img/svg/mixcloud-icon.svg";
 import { ReactComponent as InstaSvg } from "../img/svg/insta-icon.svg";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import "./Pages/GlitchSupport.css";
 // import { ReactComponent as CatIcon } from "../img/svg/cat-icon.svg";
 
 function Header() {
@@ -28,9 +29,9 @@ function Header() {
         </div> */}
       </div>
       <div className="links-wrapper">
-        <div><Link to="/music">Music</Link></div>
-        <div><Link to="/">About</Link></div>
-        <div><Link to="/events">Events</Link></div>
+        <div ><Link to="/music" className="glitch-support">Music</Link></div>
+        <div><Link to="/"  className="glitch-support">About</Link></div>
+        <div><Link to="/events"  className="glitch-support">Events</Link></div>
       </div>
     </div>
   );
