@@ -116,3 +116,14 @@ transition: all 0.5s;
   opacity: 1;
 
 }
+
+@media only screen and (max-width: 1200px) {
+  .previous-events-wrapper a img {
+    max-width: 650px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .previous-events-wrapper a img {
+    max-width: 320px;
+  }
+}

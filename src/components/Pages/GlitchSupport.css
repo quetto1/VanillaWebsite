@@ -92,8 +92,11 @@
   
   @media only screen and (max-width: 1200px) {
     .glitch-support {
-      font-size: 5rem;
+      font-size: 4rem;
   
+    }
+    .glitch-support:hover {
+        font-size: 5rem;
     }
   }
   
