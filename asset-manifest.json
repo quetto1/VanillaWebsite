@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/VanillaWebsite/static/css/main.5f0f8b28.css",
+    "main.css": "/VanillaWebsite/static/css/main.c4b046bb.css",
     "main.js": "/VanillaWebsite/static/js/main.5ca2ffd2.js",
     "static/media/ezgif.com-gif-maker.gif": "/VanillaWebsite/static/media/ezgif.com-gif-maker.438924b7486bdc743066.gif",
     "static/media/vvGIF.gif": "/VanillaWebsite/static/media/vvGIF.f7b506bc1a3477be092b.gif",
@@ -11,11 +11,11 @@
     "static/media/mixcloud-icon.svg": "/VanillaWebsite/static/media/mixcloud-icon.7b91b64ae2a610ece4b746adbe4bb0a2.svg",
     "static/media/insta-icon.svg": "/VanillaWebsite/static/media/insta-icon.15404131fbadb78bbc16f25130d4c849.svg",
     "index.html": "/VanillaWebsite/index.html",
-    "main.5f0f8b28.css.map": "/VanillaWebsite/static/css/main.5f0f8b28.css.map",
+    "main.c4b046bb.css.map": "/VanillaWebsite/static/css/main.c4b046bb.css.map",
     "main.5ca2ffd2.js.map": "/VanillaWebsite/static/js/main.5ca2ffd2.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f0f8b28.css",
+    "static/css/main.c4b046bb.css",
     "static/js/main.5ca2ffd2.js"
   ]
 }
