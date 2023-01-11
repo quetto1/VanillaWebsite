@@ -49,6 +49,7 @@ function AboutPage() {
                     </a>
                 </div>
             </div>
+            CHUUJS
         </div>
     );
 }
